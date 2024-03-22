@@ -1,0 +1,8 @@
+all these words:
+a
+this exact word or phrase:
+"b"
+any of these words:
+c
+none of these words:
+-d

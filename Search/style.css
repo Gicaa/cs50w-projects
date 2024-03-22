@@ -1,0 +1,30 @@
+body {
+    font: arial;
+}
+
+a:link{
+    color:black;
+}
+a:visited{
+    color:black
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: black;
+}
+
+#links {
+    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+#googlelogo {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    }
