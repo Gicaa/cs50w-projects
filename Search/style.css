@@ -15,16 +15,38 @@ a:active{
     color: black;
 }
 
-#links {
-    float: right;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+.navbar {
+    text-align: right;
+}
 
-#googlelogo {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    }
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar a:link {
+    text-decoration: none;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+}
+
+#advancedsearch-bars{
+    display: list-item;
+    padding: 1px 8px;
+}
+
+#advancedsearch-submit {
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}

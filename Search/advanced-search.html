@@ -7,9 +7,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <ul class="navbar">
+            <li><a id="links" href="index.html">Google Search</a></li>
+            <li><a id="links" href="img-search.html">Image Search</a></li>
+        </ul>
+    </header>
+
+
     <div>
-        <a id="links" href="img-search.html">Image Search</a>      
-        <a id="links" href="index.html">Google Search</a>
-    </div> 
+        <a href="https://www.google.com/">
+            <img id="googlelogo" src="images/googlelogo.png" alt="Google Logo" height="92" width="272">
+        </a>
+    </div>
+
+    <div class="appbar"> 
+        <label>Advanced Search</label>    
+    </div>
+
+
+    <div class="center-div" id="advancedsearch-bars">
+        <form>
+            <p>All these words:</p>
+            <form action="https://www.google.com/search">
+                <input type="text" name="as_q">
+            </form>
+
+            <p>This exact word or phrase:</p>
+            <form action="https://www.google.com/search">
+                <input type="text" name="as_epq">
+            </form>
+
+            <p>Any of these words:</p>
+            <form action="https://www.google.com/search">
+                <input type="text" name="as_oq">
+            </form>
+
+            <p>None of these words:</p>
+            <form action="https://www.google.com/search">
+                <input type="text" name="as_eq">
+            </form>
+        </form>
+        <input id="advancedsearch-submit" type="submit" value="Advanced Search">
+    </div>
+<!--ADD ADVANCED SEARCH OPTIONS-->
+
 </body>
 </html>
